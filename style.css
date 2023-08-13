@@ -2,7 +2,7 @@
 @font-face {
     font-family: 'escrita';
     src: url('fontes/Borel-Regular.ttf') format('TrueType');
-    font-weight: normal;
+    font-weight: 900;
     font-style: normal;
 }
 :root{
@@ -28,6 +28,7 @@ header{
 
 header > h1{
     padding-top: 30px;
+    font-size: 10vw;
 }
 header  > p{
     padding-bottom: 30px;
@@ -36,13 +37,15 @@ section.normal > h1{
     font-family: var(--fonte2);
     padding-bottom: 50px; 
     text-align: center;
+    font-size: 2em;
     background-color: white;
 }
 section{
+    font-size: 5vw;
     font-family: var(--fonte2);
     padding-top: 20vh;
     padding-bottom: 20vh;
-    line-height: 1.8em;
+    line-height: 2em;
     padding-left: 30px;
 }
 section.normal{
@@ -53,11 +56,26 @@ section.normal{
 section.imagem{
     background-color: rgba(51, 51, 51);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.316);
+    background-attachment: fixed;
 }
 section.imagem > p{
     padding: 10px;
-    width: 300px;
+    width: 400px;
     background-color: rgba(0, 0, 0, 0.255);
+    text-shadow: 2px 1px 1px black;
+}
+section#img01 {
+    background-image: url('imagens/girassol.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section#img02 {
+    background-image: url(imagens/livro.jpg);
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 footer > P {
