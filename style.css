@@ -63,7 +63,7 @@ section.imagem{
     background-repeat: no-repeat;
 }
 section.imagem > p{
-    width: 400px;
+    width: 320px;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.255);
     text-shadow: 2px 1px 1px black;
