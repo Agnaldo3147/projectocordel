@@ -1,0 +1,77 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'escrita';
+    src: url('fontes/Borel-Regular.ttf') format('TrueType');
+    font-weight: normal;
+    font-style: normal;
+}
+:root{
+    --fonte1: verdana, Thaoma, sans-serif;
+    --fonte2: 'escrita';
+}
+*{
+   
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    font-family: var(--fonte1);
+    min-height: 100vh;
+    background-color: darkgray;
+}
+header{
+    background-color: black;
+    color: white;
+    font-variant: small-caps;    
+    text-align: center;  
+}
+
+header > h1{
+    padding-top: 30px;
+}
+header  > p{
+    padding-bottom: 30px;
+}
+section.normal > h1{
+    font-family: var(--fonte2);
+    padding-bottom: 50px; 
+    text-align: center;
+    background-color: white;
+}
+section{
+    font-family: var(--fonte2);
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    line-height: 1.8em;
+    padding-left: 30px;
+}
+section.normal{
+    background-color: white;
+    color: black;
+
+}
+section.imagem{
+    background-color: rgba(51, 51, 51);
+    color: white;
+}
+section.imagem > p{
+    padding: 10px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.255);
+}
+
+footer > P {
+    background-color: black;
+    text-align: center;
+    color: white;
+    
+}
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
